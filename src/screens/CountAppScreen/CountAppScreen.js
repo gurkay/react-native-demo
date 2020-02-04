@@ -2,7 +2,7 @@ import * as React from 'react';
 import { View, Text, Button } from 'react-native';
 
 import { countAppScreenStyles as styles } from './styles';
-import { CountApp } from '../../components/CountApp/CountApp';
+import CountApp from '../../components/CountApp/CountApp';
 
 class CountAppScreen extends React.Component {
     static navigationOptions = ({ navigation, navigationOptions }) => {
